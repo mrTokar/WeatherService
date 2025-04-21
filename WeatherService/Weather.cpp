@@ -1,5 +1,6 @@
 #include "Weather.h"
 #include <iostream>
+using namespace std;
 
 Weather::Weather(string const& city, double lon, double lat, double temperature, string weather, double windSpeed, int clouds):
 	city(city), weather(weather)
