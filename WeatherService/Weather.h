@@ -14,6 +14,6 @@ class Weather
 public:
 	Weather(string const& city, double lon, double lat, double temperature, \
 		string weather, double windSpeed, int clouds);
-
+	void print_weather() const;
 };
 
